@@ -15,7 +15,7 @@ export default function WeatherApp(params) {
       <Forecast />
       <footer>
         <a
-          href="https://github.com/cmatula/weather-app"
+          href="https://github.com/cmatula/weather-react"
           target="_blank"
           rel="noreferrer"
         >
