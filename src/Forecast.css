@@ -1,0 +1,10 @@
+.weather-icons {
+  width: 60px;
+}
+.forecast-weather {
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px #7c9dbd solid;
+}

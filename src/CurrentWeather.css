@@ -1,0 +1,36 @@
+h2 {
+  font-size: 44px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.city-weather-info {
+  padding: 10px;
+  margin: 40px 0;
+}
+
+.other-weather-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.units {
+  font-size: 18px;
+  position: relative;
+  top: -30px;
+}
+
+.main-temperature-info {
+  text-align: right;
+}
+
+.main-picture {
+  height: 160px;
+  width: 160px;
+}
+
+.main-temperature {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 160px;
+}
