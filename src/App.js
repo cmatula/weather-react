@@ -1,17 +1,16 @@
 import React from "react";
 
-import SearchWeather from "./SearchWeather";
-import CurrentWeather from "./CurrentWeather";
+import Weather from "./Weather.js";
+
 import Forecast from "./Forecast";
 
-import "./WeatherApp.css";
+import "./App.css";
 
-export default function WeatherApp(params) {
+export default function App(params) {
   return (
-    <div className="WeatherApp">
+    <div className="App">
       <h1>YourWeather</h1>
-      <SearchWeather />
-      <CurrentWeather />
+      <Weather defaultCity="Brisbane" />
       <Forecast />
       <footer>
         <a
@@ -20,7 +19,7 @@ export default function WeatherApp(params) {
           rel="noreferrer"
         >
           Open-source code
-        </a>
+        </a>{" "}
         by Cara Matula 👩‍💻
       </footer>
     </div>
