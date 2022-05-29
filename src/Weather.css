@@ -36,6 +36,10 @@ h2 {
   line-height: 160px;
 }
 
+.description {
+  text-transform: capitalize;
+}
+
 input[type="search"] {
   padding: 0 10px;
 }
