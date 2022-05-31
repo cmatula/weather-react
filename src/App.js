@@ -2,8 +2,6 @@ import React from "react";
 
 import Weather from "./Weather.js";
 
-import Forecast from "./Forecast";
-
 import "./App.css";
 
 export default function App(params) {
@@ -11,7 +9,7 @@ export default function App(params) {
     <div className="App">
       <h1>YourWeather</h1>
       <Weather defaultCity="Brisbane" />
-      <Forecast />
+
       <footer>
         <a
           href="https://github.com/cmatula/weather-react"

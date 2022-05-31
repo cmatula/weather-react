@@ -4,8 +4,9 @@ h1 {
   font-variant: small-caps;
 }
 
-footer {
+.App footer {
   text-align: center;
+  margin-top: 20px;
 }
 
 .App a {
