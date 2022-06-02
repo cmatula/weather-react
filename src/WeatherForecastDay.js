@@ -12,31 +12,20 @@ export default function WeatherForecastDay(props) {
 
   function forecastIcon() {
     let iconUrl = `http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`;
-    return iconUrl;
+    return <img src={iconUrl} alt={props.data.weather[0].description} />;
   }
 
   function day() {
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
-    let days = [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-    ];
+    let days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
     return days[day];
   }
   return (
     <div className="WeatherForecastDay">
       <div>{day()}</div>
-      <img
-        src={forecastIcon()}
-        alt={props.data.weather[0].description}
-        className="weather-icons"
-      />
+      <div className="weather-icons">{forecastIcon()}</div>
+
       <div>
         <strong>{maxTemperature()}</strong> / <span>{minTemperature()}</span>
       </div>
